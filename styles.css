@@ -1,0 +1,41 @@
+.navigation-bar {
+  padding: 15px;
+  background-color: white;
+}
+
+.nav-left img {
+  width: 50px;
+  height: auto;
+}
+
+.nav-left a {
+  text-decoration: none;
+  padding: 5px;
+  color: #f06d06;
+  font-variant: small-caps;
+}
+
+body {
+  background-image:
+    linear-gradient( to right,
+      #e52db7, #f06d06
+    );
+}
+
+.nav-right a {
+  position: right;
+  color: #f06d06;
+  text-decoration: none;
+  padding: 5px;
+  text-transform: capitalize;
+  float: right;
+}
+
+.nav-right img {
+  float: right;
+  padding-right: 30px;
+}
+
+.nav-right .nav-left {
+  display: inline-block;
+}

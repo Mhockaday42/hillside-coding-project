@@ -13,12 +13,14 @@
   padding: 5px;
   color: #f06d06;
   font-variant: small-caps;
+  font-family: monospace;
+
 }
 
-body {
+.section-one {
   background-image:
     linear-gradient( to right,
-      #e52db7, #f06d06
+      #ee1289, #f06d06
     );
 }
 
@@ -29,6 +31,9 @@ body {
   padding: 5px;
   text-transform: capitalize;
   float: right;
+  font-family: monospace;
+
+
 }
 
 .nav-right img {
@@ -36,6 +41,40 @@ body {
   padding-right: 30px;
 }
 
-.nav-right .nav-left {
+.right-heading h1 {
+  text-transform: capitalize;
+  color: white;
+}
+
+
+.right-heading h2 {
+  font-variant: small-caps;
+  font-family: monospace;
+}
+
+.right-heading p {
+  color: white;
+  font-family: monospace;
+
+}
+
+.left-heading a {
+  font-variant: small-caps;
+  text-decoration: none;
+  color: white;
+  padding-left: 250px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+
+.left-image img {
+  width: 550px;
+  height: auto;
+  border: solid black 1px;
+  padding-left: 200px;
+}
+
+.right-heading, .left-image {
   display: inline-block;
 }

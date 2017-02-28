@@ -25,25 +25,28 @@
 }
 
 .nav-right a {
-  position: right;
+  position: relative;
   color: #f06d06;
   text-decoration: none;
   padding: 5px;
   text-transform: capitalize;
   float: right;
   font-family: monospace;
-
+  right: 15px;
+  top: -15px;
 
 }
 
 .nav-right img {
   float: right;
   padding-right: 30px;
+
 }
 
 .right-heading h1 {
   text-transform: capitalize;
   color: white;
+  font-family: monospace;
 }
 
 
@@ -71,7 +74,6 @@
 .left-image img {
   width: 550px;
   height: auto;
-  border: solid black 1px;
   padding-left: 200px;
 }
 

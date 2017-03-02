@@ -13,7 +13,7 @@
   padding: 5px;
   color: #f06d06;
   font-variant: small-caps;
-  font-family: monospace;
+  font-family: cursive;
 
 }
 
@@ -22,6 +22,9 @@
     linear-gradient( to right,
       #ee1289, #f06d06
     );
+    height: 500px;
+    width:auto;
+    box-sizing: border-box;
 }
 
 .nav-right a {
@@ -31,7 +34,7 @@
   padding: 5px;
   text-transform: capitalize;
   float: right;
-  font-family: monospace;
+  font-family: cursive;
   right: 15px;
   top: -15px;
 
@@ -46,18 +49,31 @@
 .right-heading h1 {
   text-transform: capitalize;
   color: white;
-  font-family: monospace;
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: normal;
+
+
 }
 
 
 .right-heading h2 {
+  position: relative;
   font-variant: small-caps;
-  font-family: monospace;
+  font-family: cursive;
+  font-size: 15px
+
+
+
 }
 
 .right-heading p {
+  position: relative;
   color: white;
-  font-family: monospace;
+  font-family: cursive;
+  padding-right: 300px;
+
+
 
 }
 
@@ -67,16 +83,27 @@
   color: white;
   padding-left: 250px;
   font-size: 25px;
-  font-family: monospace;
+  font-family: cursive;
 }
 
 
 .left-image img {
+  position: relative;
   width: 550px;
   height: auto;
   padding-left: 200px;
+  top: 100px;
+
 }
 
 .right-heading, .left-image {
   display: inline-block;
+  position: inherit;
+}
+
+.right-heading {
+position: relative;
+padding-left: 900px;
+top: -250px;
+
 }

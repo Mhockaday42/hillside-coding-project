@@ -36,14 +36,16 @@
   float: right;
   font-family: cursive;
   right: 15px;
-  top: -15px;
+  top: -25px;
 
 }
 
 .nav-right img {
+  position: relative;
   float: right;
   padding-right: 30px;
-
+  top: -17px;
+  right: 15px;
 }
 
 .right-heading h1 {
@@ -63,8 +65,14 @@
   font-family: cursive;
   font-size: 15px
 
+}
 
 
+
+.right-heading h3 {
+  font-family: cursive;
+  font-size: 30px;
+  color: white;
 }
 
 .right-heading p {
@@ -72,18 +80,43 @@
   color: white;
   font-family: cursive;
   padding-right: 300px;
+}
 
+.right-heading h3,h4{
+  display: inline-block;
+}
 
+#button-container a{
+  /*border: 2px solid black;*/
+  position: relative;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 100px;
+  top: -60px;
+  text-decoration: none;
+  font-variant: small-caps;
+
+}
+
+.right-heading a{
+  padding-left: 260px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: black;
 
 }
 
 .left-heading a {
+  position: relative;
   font-variant: small-caps;
   text-decoration: none;
   color: white;
   padding-left: 250px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: cursive;
+  top: 70px;
+  right: 30px;
 }
 
 

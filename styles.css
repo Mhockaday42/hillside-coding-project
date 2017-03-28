@@ -20,7 +20,7 @@
 .section-one {
   background-image:
     linear-gradient( to right,
-      #ee1289, #f06d06
+      #ee1289, #ee4613
     );
     height: 500px;
     width:auto;
@@ -96,6 +96,8 @@
   top: -60px;
   text-decoration: none;
   font-variant: small-caps;
+  color: #EE4613;
+  font-family: cursive;
 
 }
 
@@ -138,5 +140,70 @@
 position: relative;
 padding-left: 900px;
 top: -250px;
+
+}
+
+
+.body {
+  position: relative;
+  font-family:;
+  padding-left: 210px;
+  top: 100px;
+}
+
+
+.body a {
+  font-size: 20px;
+  color: grey;
+}
+
+.body h1,h2,h3 {
+  color:#392E2A;
+}
+
+
+
+.Reccomended {
+  position: relative;
+  padding-left: 450px;
+  margin: 20px;
+  background-color: #f6e7e7;
+  height: 40px;
+  width:1670px;
+  box-sizing: border-box;
+  left: -250px;
+}
+
+.Reccomended h1 {
+  padding-left: 200px;
+  font-size: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
